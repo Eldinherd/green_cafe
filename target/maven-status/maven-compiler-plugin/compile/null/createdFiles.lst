@@ -1,0 +1,11 @@
+model\PaymentType.class
+model\LastEducation.class
+model\Order.class
+model\OrderItem.class
+base\CreatedBase.class
+META-INF\panache-archive.marker
+model\Employee.class
+model\Item.class
+model\JobPosition.class
+base\UpdateBase.class
+model\User.class
