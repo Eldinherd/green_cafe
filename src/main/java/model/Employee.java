@@ -10,7 +10,7 @@ import javax.persistence.*;
 @Table(name = "employee")
 public class Employee extends UpdateBase {
     @Id
-    @GenericGenerator(name = "uuid", strategy = "org.hiberante.id.UUIDGenerator")
+    @GenericGenerator(name = "uuid", strategy = "org.hibernate.id.UUIDGenerator")
     @GeneratedValue(generator = "uuid")
     @Column(name = "id", nullable = false, length = 36)
     private String id;
